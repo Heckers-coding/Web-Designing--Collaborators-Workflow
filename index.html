@@ -3,7 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sports Registration Form</title>
+<style>
+    
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(44, 62, 80, 0.15);
+    width: 90%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: #228B22;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+    margin-top:15px;
+}
+
+button[type="submit"] {
+    background: #228B22;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+button[type="submit"]:hover {
+    background: #176e12;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 18px 10px;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+}
+</style>
 </head>
 <body>
 <div class="container">
@@ -78,12 +153,6 @@
                 <option value="javelin_throw">Javelin Throw</option>
                 <option value="hammer_throw">Hammer Throw</option>
             </select>
-
-        
-
-        <label for="city">City:</label>
-        <input type="text" id="city" name="city" required>
-
 
         <label>
             <input type="checkbox" name="agree" required>
