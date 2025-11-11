@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Sports Registration Form</title>
 <style>
     
@@ -86,18 +87,22 @@ button[type="submit"]:hover {
     <form>
         
         <label for="fullname">Full Name:</label>
+        <i class="fa-solid fa-user"></i>
         <input type="text" id="fullname" name="fullname" required>
 
         <label for="dob">Date of Birth:</label>
+        <i class="fa-solid fa-calendar-days"></i>
         <input type="date" id="dob" name="dob" required>
 
        <label for="gender">Gender</label>
+       <i class="fa-solid fa-venus-mars"></i>
                 <select id="gender" >
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
             </select><br>
         
         <label for="team choice">Team choice</label>
+        <i class="fa-brands fa-teamspeak"></i>
             <select id="team choice">
                 <option value="nothing" selected disabled>please choose</option>
                 <option value="solo">Solo</option>
@@ -105,6 +110,7 @@ button[type="submit"]:hover {
             </select><br>
 
         <label for="category">Category</label>
+        <i class="fa-solid fa-list"></i>
             <select id="category">
                 <option value="junior">Junior</option>
                 <option value="senior">Senior</option>
@@ -112,17 +118,21 @@ button[type="submit"]:hover {
         
 
         <label for="contact">Contact Number:</label>
+        <i class="fa-solid fa-phone"></i>
         <input type="tel" id="contact" name="contact" maxlength="10" required>
 
         
         <label for="college">College Name:</label>
+        <i class="fa-solid fa-building-columns"></i>
         <input type="text" id="college" name="college" required>
 
     
         <label for="city">City:</label>
+        <i class="fa-solid fa-city"></i>
         <input type="text" id="city" name="city" required>
 
         <label for="outdoor-sports">Select Outdoor Sport:</label>
+        <i class="fa-solid fa-medal"></i>
             <select id="outdoor-sports" name="outdoor_sport">
                 <option value="nothing" selected disabled>-- Select Outdoor Sport --</option>
                 <option value="athletics">Athletics</option>
@@ -140,6 +150,7 @@ button[type="submit"]:hover {
             </select><br>
 
         <label for="track-field">Select Track & Field Event:</label>
+        <i class="fa-regular fa-calendar-xmark"></i>
             <select id="track-field" name="track_field_event">
                 <option value="nothing" selected disabled>-- Select Track & Field Event --</option>
                 <option value="100m">100m Sprint</option>
